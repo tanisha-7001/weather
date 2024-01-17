@@ -1,0 +1,54 @@
+.weather-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  text-align: center;
+  
+}
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+
+  background-image:url('C:\Users\Tanisha Singh\Desktop\react\project\public\i.jpg');
+  font-family: sans-serif;
+  transition:0.5s ease;
+
+}
+
+
+
+.App {
+  transition: background-image 0.5s ease; /* Add transition property */
+}
+
+button:hover
+{
+  color: antiquewhite;
+  background-color: rgb(178, 103, 76);
+}
+button
+{
+  font-size: 20px;
+}
+input
+{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+form
+{
+  
+  text-align: center;
+
+}
+
+h1
+{ 
+  font-family:'Times New Roman', Times, serif;
+  font-size: 70px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+
+}
+
